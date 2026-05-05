@@ -1,7 +1,5 @@
 using LocationTracker.Core;
 using LocationTracker.Data;
-using Microsoft.OpenApi;
-
 
 var builder = WebApplication.CreateBuilder(args);
 

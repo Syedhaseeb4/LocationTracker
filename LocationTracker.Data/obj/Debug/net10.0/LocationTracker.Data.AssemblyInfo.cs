@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LocationTracker.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02d0eee002b340bca69a9c6e9395cbc59f4cd5b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ba1ef905cf5541a49054f0e97f1b506acc9417")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocationTracker.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocationTracker.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
