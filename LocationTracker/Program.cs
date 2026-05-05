@@ -20,14 +20,26 @@ builder.Services.AddTransient<ILocationTracker>(_ =>
     new LocationRepository(connectionString ?? throw new InvalidOperationException("Connection string not found"))
 );
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
+
+app.UseCors("AllowAll");
+
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseAuthorization();
 app.MapControllers();
 
