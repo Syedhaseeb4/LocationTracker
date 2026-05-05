@@ -1,2 +1,0 @@
-# LocationTracker
-Location  tracker APi

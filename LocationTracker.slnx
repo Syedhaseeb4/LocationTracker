@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="LocationTracker.Core/LocationTracker.Core.csproj" />
+  <Project Path="LocationTracker.Data/LocationTracker.Data.csproj" />
+  <Project Path="LocationTracker/LocationTracker.csproj" />
+</Solution>
